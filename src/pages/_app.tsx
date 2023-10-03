@@ -38,19 +38,32 @@ const Links = [
     paths: ["/"],
   },
   {
-    name: "스트리머",
-    href: "/streamer",
-    paths: ["/streamer"],
+    name: "피드",
+    href: "/feed",
+    paths: ["/feed"],
   },
   {
-    name: "다시보기",
+    name: "VOD",
     href: "/vod",
     paths: ["/vod"],
   },
   {
-    name: "문의/후원",
-    href: "/support",
-    paths: ["/support"],
+    name: "방송공지",
+    href: "/notice",
+    paths: ["/notice"],
+  },
+  {
+    name: "서비스 안내",
+    href: "/intro",
+    paths: [
+      "/intro",
+      "/intro/detail",
+      "/intro/roadmap",
+      "/intro/update",
+      "/intro/report",
+      "/intro/contribute",
+      "/intro/about",
+    ],
   },
 ];
 
@@ -93,9 +106,9 @@ function AppLayout() {
   return (
     <>
       <Head>
-        <title>아카이버스 - Archivers</title>
-        <meta name="description" content="아카이버스 - Archivers" />
-        <link rel="icon" href="/Archivers_A.png" />
+        <title>LEAVEN Portal</title>
+        <meta name="description" content="LEAVEN Portal" />
+        <link rel="icon" href="https://multi.leaven.team/leaven.png" />
       </Head>
       <Box
         bg={useColorModeValue("gray.100", "gray.900")}
@@ -115,8 +128,13 @@ function AppLayout() {
           <HStack spacing={8} alignItems={"center"}>
             <Link href="/">
               <Flex align="center" gap={2}>
-                <Heading as="h1" size="md" className="pyeongchang">
-                  ARCHIVERS
+                <Image
+                  src="https://multi.leaven.team/leaven.png"
+                  alt="Leaven"
+                  w={10}
+                />
+                <Heading as="h1" size="md">
+                  레븐 Portal
                 </Heading>
               </Flex>
             </Link>
