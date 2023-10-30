@@ -59,12 +59,11 @@ const leaven = [
     },
   },
   {
-    provider: "youtube",
-    id: "gunaguna",
+    provider: "afreeca",
+    id: "ethereal321",
     name: "구나구나",
-    profile:
-      "https://static-cdn.jtvnw.net/jtv_user_pictures/101bf481-5585-43a7-a01a-79c503c47342-profile_image-300x300.jpeg",
-    link: "https://www.youtube.com/@gunaguna",
+    profile: "https://profile.img.afreecatv.com/LOGO/et/ethereal321/ethereal321.jpg",
+    link: "https://bj.afreecatv.com/ethereal321",
     provider_info: {},
   },
   {

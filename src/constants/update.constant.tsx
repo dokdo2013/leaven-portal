@@ -2,6 +2,20 @@ import { ListItem, UnorderedList } from "@chakra-ui/react";
 
 const UpdateInfo = [
   {
+    date: "2023-10-30 17:30",
+    title: "구나구나 아프리카 채널 반영",
+    content: (
+      <div>
+        <UnorderedList>
+          <ListItem>
+            구나구나 아프리카TV 활동이 시작되었으나 채널 정보가 반영되어 있지 
+            않아 크롤링이 정상 수행되지 않는 문제를 해결하였습니다.
+          </ListItem>
+        </UnorderedList>
+      </div>
+    ),
+  },
+  {
     date: "2023-09-08 12:00",
     title: "비에타 공지게시판 변경 반영",
     content: (
