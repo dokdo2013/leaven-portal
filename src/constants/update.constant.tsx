@@ -2,6 +2,19 @@ import { ListItem, UnorderedList } from "@chakra-ui/react";
 
 const UpdateInfo = [
   {
+    date: "2023-12-08 15:20",
+    title: "유달린 아프리카 채널 반영",
+    content: (
+      <div>
+        <UnorderedList>
+          <ListItem>
+            유달린 아프리카TV 방송국 정보를 반영하였습니다.
+          </ListItem>
+        </UnorderedList>
+      </div>
+    ),
+  },
+  {
     date: "2023-10-30 17:30",
     title: "구나구나 아프리카 채널 반영",
     content: (

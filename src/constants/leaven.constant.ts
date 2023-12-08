@@ -1,12 +1,14 @@
 const leaven = [
   {
-    provider: "twitch",
+    provider: "afreeca",
     id: "yudarlinn",
     name: "유달린",
     profile:
-      "https://static-cdn.jtvnw.net/jtv_user_pictures/dfb42819-3c41-43e1-b47b-1e8c8f4f5018-profile_image-300x300.png",
-    link: "https://www.twitch.tv/yudarlinn",
-    provider_info: {},
+      "https://profile.img.afreecatv.com/LOGO/yu/yudarlinn/yudarlinn.jpg",
+    link: "https://bj.afreecatv.com/yudarlinn",
+    provider_info: {
+      afreeca_notice_board: "97429018",
+    },
   },
   {
     provider: "afreeca",
@@ -88,13 +90,15 @@ const leaven = [
     },
   },
   {
-    provider: "twitch",
+    provider: "afreeca",
     id: "adricham",
     name: "아드리챔",
     profile:
-      "https://static-cdn.jtvnw.net/jtv_user_pictures/262b2b99-4838-4ea3-a050-d17493eb2a63-profile_image-300x300.png",
-    link: "https://www.twitch.tv/adricham",
-    provider_info: {},
+      "https://profile.img.afreecatv.com/LOGO/ad/adricham/adricham.jpg",
+    link: "https://bj.afreecatv.com/adricham",
+    provider_info: {
+      afreeca_notice_board: "93782326",
+    },
   },
 ];
 
